@@ -359,7 +359,7 @@ endif()
 _define_absolute(SYSCONFDIR "${_default_sysconf_dir}"
     "read-only single-machine data"
     SYSCONF_INSTALL_DIR)
-_define_relative(CONFDIR SYSCONFDIR "xdg"
+_define_relative(CONFDIR DATAROOTDIR "xdg"
     "application configuration files"
     CONFIG_INSTALL_DIR)
 _define_relative(AUTOSTARTDIR CONFDIR "autostart"
